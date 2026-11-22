@@ -14,6 +14,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Clickmouse",
+                    "type": "Button",
+                    "id": "c9ece689-f898-4fe5-adce-63e71da5802f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -71,6 +80,17 @@
                     "action": "Camera",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "af4d94fd-7f51-4ff7-9bb7-7f9a959c7b0f",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Clickmouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

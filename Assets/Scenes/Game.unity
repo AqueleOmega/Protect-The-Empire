@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3713200e6f9bd7d4594c98fdc82fadb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 1
+  velocidade: 3
 --- !u!1 &398402140
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3713200e6f9bd7d4594c98fdc82fadb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 1
+  velocidade: 3
 --- !u!1 &1512740626
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,6 +1093,31 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   camera1: {fileID: 491363031}
+  Shift:
+    m_Name: Shift
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: d925933e-f31e-442c-a73c-5555917b3fe6
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: c21e5747-bdc1-4a9d-a841-1d98502ece02
+      m_Path: <Keyboard>/shift
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Shift
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 8f806e01-f306-4d1a-b137-e493c8e279a5
+      m_Path: <Keyboard>/leftShift
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Shift
+      m_Flags: 0
+    m_Flags: 0
 --- !u!1 &2091596390
 GameObject:
   m_ObjectHideFlags: 0
